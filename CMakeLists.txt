@@ -21,6 +21,10 @@ add_executable(test_2248 test/intersection-of-multiple-arrays.cpp
                          src/intersection-of-multiple-arrays.cpp)
 target_include_directories(test_2248 PRIVATE inc)
 
+add_executable(test_2415 test/reverse-odd-levels-of-binary-tree.cpp
+                         src/reverse-odd-levels-of-binary-tree.cpp)
+target_include_directories(test_2415 PRIVATE inc)
+
 if (MSVC)
     # warning level 4
     add_compile_options(/W4)
